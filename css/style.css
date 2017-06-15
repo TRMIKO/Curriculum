@@ -19,6 +19,100 @@ body{
 	font-family: 'Josefin Sans', sans-serif;
 }
 
+
+/*----bootstrap-----------*/
+main{
+	box-sizing: border-box;
+	width: 100%;
+	height: 100%;
+	border: solid;
+	background-image: url(../img/ciudad.jpg)
+
+}
+.centro{
+	display: flex;
+	align-items: center;
+}
+.ccentro_c{
+	display: flex;
+	flex-direction:column;
+	align-items: center;
+	justify-content: center;
+}
+.a-media{
+	height: 50%;
+}
+.a-completa{
+	height: 100%;
+}
+.a-cuarto{
+	height: 15%
+}
+.a-3-4{
+	height: 75%;
+}
+.b-completa{
+	width: 100%;
+}
+nav{
+	height: 10%;
+	background-color: black;
+	
+}
+.hero{
+	height: 100%;
+	
+	
+}
+.cuadro{
+	width: 100%;
+	height: 100%;
+	
+}
+.hola{
+
+	color:var(--main-font);
+	
+}
+
+.imagen img{
+	border-radius: 50%;
+	width: 100%;
+}
+.quien{
+	background-color: blue;
+}
+.experiencia{
+	background-color: red;
+}
+.tecnologias{
+	background-color: pink;
+}
+.hobbies{
+	background-color: purple;
+}
+
+/*----dibujos-----*/
+
+.flecha-superior{
+	width: 20%;
+	height: 25%;
+	background-color: white;
+}
+.flecha-inferior{
+	width: 0;
+	height: 0;
+	border-left: 50px solid  transparent;
+     border-top: 75px solid white;
+     border-right: 50px solid transparent;
+	
+}
+
+/*----dibujos-----*/
+
+/*----bootstrap-----------*/
+/*
+
 .hero{
 	width: 100%;
 	height: 100%;
@@ -102,3 +196,4 @@ body{
 	color:var(--main-font);
 	text-decoration: none;
 }
+*/
