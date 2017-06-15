@@ -109,14 +109,17 @@ nav{
 }
 
 /*----dibujos-----*/
-@media (min-width: 425px ) {
-	.main{
-		background-color: var(--main);
-		background-image: none;
-	}
+@media (max-width: 425px ) {
+	
 }
 
-
+@media (max-width: 425px) {
+  main{
+		background-color: var(--main);
+		background-image:none;
+	}
+	
+}
 
 /*-------MEdia queryes*/
 
