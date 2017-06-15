@@ -26,7 +26,7 @@ main{
 	width: 100%;
 	height: 100%;
 	border: solid;
-	background-image: url(../img/ciudad.jpg)
+	background-image: url(../img/ciudad.jpg);
 
 }
 .centro{
@@ -109,7 +109,19 @@ nav{
 }
 
 /*----dibujos-----*/
+@media (min-width: 425px ) {
+	.main{
+		background-color: var(--main);
+		background-image: none;
+	}
+}
 
+
+
+/*-------MEdia queryes*/
+
+
+/*-------MEdia queryes*/
 /*----bootstrap-----------*/
 /*
 
