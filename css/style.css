@@ -95,8 +95,8 @@ nav{
 /*----dibujos-----*/
 
 .flecha-superior{
-	width: 20%;
-	height: 25%;
+	width: 40px;
+	height: 40px;
 	background-color: white;
 }
 .flecha-inferior{
